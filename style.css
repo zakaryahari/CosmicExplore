@@ -241,7 +241,27 @@ button.Sidebar{
     border-radius: 30px;
     padding: 20px;
 }
-
+.Oussama-experience{
+    
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.Oussama-Centres{
+    justify-content: space-between;
+}
+.Oussama-Centres h3 , .Oussama-Niveau h3{
+    color: blue;
+    font-weight: bold;
+}
+input{
+    accent-color: black;
+}
 
 
 
