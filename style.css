@@ -488,8 +488,8 @@ button.Sidebar{
 
 /* Oussama-inscription CSS */
 .Oussama-Informations{
-    padding: 50px 200px;
-    margin: 50px 200px;
+    padding: 50px;
+    margin: 50px;
     border-radius: 20px;
     background-color: azure;
     display: grid;
@@ -548,92 +548,12 @@ button.Sidebar{
 }
 .Oussama-discvoer-container{
     margin: 20px;
-    background-image: url(images/Paz\ repousando\ sobre\ a\ terra_✨🕊.jpeg);
+    background-image: url(Oussama-img/Paz\ repousando\ sobre\ a\ terra_✨🕊.jpeg);
     height: 700px;
     border-radius: 30px;
     padding: 20px;
 }
-.Oussama-experience{
-    padding: 50px 50px 50px 100px;
-    margin: 50px 200px;
-    border-radius: 20px;
-    background-color: azure;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    box-shadow: 10px 10px 20px  blue ;
-}
 
-.Oussama-Centres{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.Oussama-Niveau{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-}
-.Oussama-Centres h3 , .Oussama-Niveau h3{
-    color: blue;
-    font-weight: bold;
-}
-input{
-    accent-color: black;
-}
-.Oussama-discvoer-container2{
-    margin: 20px;
-    border-radius: 20px;
-    height: 700px;
-    background-image: url(images/pexels-pixabay-256379.jpg);
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-}
-.Oussama-abonnement1{
-    justify-items: center;
-    border-radius: 20px;
-    background-color: aliceblue;
-    height: 30rem;
-    box-shadow: 10px 10px 20px  blue ;
-}
-.Oussama-abonnement2{
-    justify-items: center;
-    border-radius: 20px;
-    background-color: aliceblue;
-    height: 30rem;
-    box-shadow: 10px 10px 20px  blue ;
-}
-.Oussama-abonnement3{
-    justify-items: center;
-    border-radius: 20px;
-    background-color: aliceblue;
-    height: 30rem;
-    box-shadow: 10px 10px 20px  blue ;
-}
-.Oussama-abonnement1 h2{
-    color: blue;
-
-}
-.Oussama-abonnement2 h2{
-    color: blue;
-}
-.Oussama-abonnement3 h2{
-    color: blue;
-}
-
-.Oussama-discvoer-container2 button{
-    width: 10rem;
-    height: 3rem;
-    border-radius: 10rem;
-    color: white;
-    font-weight: bold;
-    background-color: #0F62FE;
-}
 
 
 
@@ -641,7 +561,7 @@ input{
 .footer{
     margin: 0;
     grid-area: footer;
-    /* height: 482px; */
+    height: 482px;
 }
 .footer-container{
     background-color: aliceblue;
@@ -732,53 +652,7 @@ input{
     }
 
 
-
     .footer-container{
     grid-auto-flow: row;
     }
-
-    sdahasdajds
-    asdhasjdkajd
-    asijdajhdsad
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    saudiaklhdsgbakhd
-
-
-
-    adhaskdha
 }
