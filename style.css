@@ -195,8 +195,17 @@ button.Sidebar{
     background-size: cover;
 }
 .inscription-ban h1{
-    color: #000;
+    color: #fff5f5;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Orbitron';
 }
+
+.inscription-ban p{
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+
 .inscription-cont{
     position: absolute;
     top: 50%;
@@ -220,10 +229,6 @@ button.Sidebar{
     gap: 15px;
     box-shadow: 10px 10px 20px  blue ;
     
-}
-.inscription-abonnement1 h2{
-    color: blue;
-
 }
 .inscription-fname{
     grid-column: 1/3;
@@ -301,6 +306,7 @@ button.Sidebar{
 
 }
 .inscription-Centres h3 , .inscription-Niveau h3{
+    font-family: 'Orbitron';
     color: blue;
     font-weight: bold;
 }
@@ -342,15 +348,19 @@ input{
 }
 .inscription-abonnement1 h2{
     color: blue;
+    font-family: 'Orbitron';
 
 }
 .inscription-abonnement2 h2{
     color: blue;
+    font-family: 'Orbitron';
 }
 .inscription-abonnement3 h2{
     color: blue;
+    font-family: 'Orbitron';
 }
 .inscription-discvoer-container2 button{
+    font-family: 'Roboto';
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
@@ -358,15 +368,24 @@ input{
     font-weight: bold;
     background-color: #0F62FE;
 }
+label{
+    font-family: 'Roboto';
+}
 .inscription-discvoer-container3{
     text-align: center;
     margin: 50px;
     padding: 40px;
     background-color: #000000;
     border-radius: 20rem;
+    
+}
+p{
+    font-family: 'Roboto';
+    font-size: 1rem;
 }
 .inscription-conditions{
     color: #ffffff;
+    font-family: 'Roboto';
 }
 .inscription-button{
     display: flex;
@@ -374,6 +393,7 @@ input{
     margin: 30px;
 }
 .inscription-button button{
+    font-family: 'Orbitron';
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
@@ -498,8 +518,7 @@ input{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 50px;
-
+        
     }
 
 
