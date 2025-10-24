@@ -185,9 +185,31 @@ button.Sidebar{
 
 
 /* Oussama-inscription CSS */
-.Oussama-Informations{
-    padding: 50px 200px;
-    margin: 50px 200px;
+
+
+.inscription-ban{
+    position: relative;
+    width: 100%;
+    height: 481px;
+    background-image: url(./images/slider.png);
+    background-size: cover;
+}
+.inscription-ban h1{
+    color: #000;
+}
+.inscription-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.inscription-Informations{
+    padding: 3rem 5vw;
+    margin: 3rem auto;
+    max-width: 900px;
     border-radius: 20px;
     background-color: azure;
     display: grid;
@@ -199,65 +221,66 @@ button.Sidebar{
     box-shadow: 10px 10px 20px  blue ;
     
 }
-.Oussama-abonnement1 h2{
+.inscription-abonnement1 h2{
     color: blue;
 
 }
-.Oussama-fname{
+.inscription-fname{
     grid-column: 1/3;
     justify-content: center;
     align-items: center;
 }
-.Oussama-femail{
+.inscription-femail{
     grid-column: 1/3;
     justify-content: center;
     align-items: center;
 }
-.Oussama-fdate{
+.inscription-fdate{
     grid-column: 1/2;
     justify-content: center;
     align-items: center;
 }
-.Oussama-fLocalisation{
+.inscription-fLocalisation{
     grid-column: 2/3;
     justify-content: center;
     align-items: center;
 }
-#Oussama-fdate{
+#inscription-fdate{
     color: rgba(240, 248, 255, 0.459);
     width: 100%;
     height: 40px;
     background-color: black;
     border: solid 5px blue;
-    border-radius: 10px;
+    border-radius: 0.8rem;
 }
-#Oussama-fLocalisation{
+#inscription-fLocalisation{
     color: rgba(240, 248, 255, 0.459);
     width: 100%;
-    height: 50px;
+    height: 3rem;
     background-color: black;
     border: solid 5px blue;
-    border-radius: 10px;
+    border-radius: 0.8rem;
 }
 
-#Oussama-fname , #Oussama-femail {
+#inscription-fname , #inscription-femail {
     color: aliceblue;
     width: 100%;
     height: 40px;
     background-color: black;
     border: solid 5px blue;
-    border-radius: 10px;
+    border-radius: 0.8rem;
 }
-.Oussama-discvoer-container{
+.inscription-discvoer-container{
     margin: 20px;
     background-image: url(images/Paz\ repousando\ sobre\ a\ terra_✨🕊.jpeg);
     height: 700px;
-    border-radius: 30px;
+    border-radius: 0.8rem;
     padding: 20px;
 }
-.Oussama-experience{
-    padding: 50px 50px 50px 100px;
-    margin: 50px 200px;
+.inscription-experience{
+    padding: 3rem 5vw;
+    margin: 3rem auto;
+    max-width: 900px;
     border-radius: 20px;
     background-color: azure;
     display: grid;
@@ -266,30 +289,29 @@ button.Sidebar{
     box-shadow: 10px 10px 20px  blue ;
 }
 
-.Oussama-Centres{
+.inscription-Centres{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.Oussama-Niveau{
+.inscription-Niveau{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
 }
-.Oussama-Centres h3 , .Oussama-Niveau h3{
+.inscription-Centres h3 , .inscription-Niveau h3{
     color: blue;
     font-weight: bold;
 }
 input{
     accent-color: black;
 }
-.Oussama-discvoer-container2{
+.inscription-discvoer-container2{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
     height: 700px;
-    background-image: url(images/pexels-pixabay-256379.jpg);
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -297,39 +319,38 @@ input{
     gap: 40px;
     
 }
-.Oussama-abonnement1{
+.inscription-abonnement1{
     justify-items: center;
     border-radius: 20px;
     background-color: aliceblue;
     height: 30rem;
     box-shadow: 10px 10px 20px  blue ;
 }
-.Oussama-abonnement2{
+.inscription-abonnement2{
     justify-items: center;
     border-radius: 20px;
     background-color: aliceblue;
     height: 30rem;
     box-shadow: 10px 10px 20px  blue ;
 }
-.Oussama-abonnement3{
+.inscription-abonnement3{
     justify-items: center;
     border-radius: 20px;
     background-color: aliceblue;
     height: 30rem;
     box-shadow: 10px 10px 20px  blue ;
 }
-.Oussama-abonnement1 h2{
+.inscription-abonnement1 h2{
     color: blue;
 
 }
-.Oussama-abonnement2 h2{
+.inscription-abonnement2 h2{
     color: blue;
 }
-.Oussama-abonnement3 h2{
+.inscription-abonnement3 h2{
     color: blue;
 }
-
-.Oussama-discvoer-container2 button{
+.inscription-discvoer-container2 button{
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
@@ -337,24 +358,22 @@ input{
     font-weight: bold;
     background-color: #0F62FE;
 }
-
-.Oussama-discvoer-container3{
+.inscription-discvoer-container3{
     text-align: center;
     margin: 50px;
     padding: 40px;
     background-color: #000000;
     border-radius: 20rem;
-
 }
-.Oussama-conditions{
+.inscription-conditions{
     color: #ffffff;
 }
-.Oussama-button{
+.inscription-button{
     display: flex;
     justify-content: center;
     margin: 30px;
 }
-.Oussama-button button{
+.inscription-button button{
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
@@ -362,10 +381,7 @@ input{
     font-weight: bold;
     background-color: white;
     box-shadow: 10px 10px 20px  blue ;
-
-
 }
-
 
 
 
@@ -476,7 +492,15 @@ input{
     body{
         scroll-behavior: smooth;
     }
+    /*oussama container*/
+    .inscription-discvoer-container2 {
+        height: 2000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
 
+    }
 
 
     .footer-container{
