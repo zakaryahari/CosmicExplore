@@ -80,7 +80,8 @@ button.Sidebar{
 
 /* Home css code */
 
-.zakarya-banner{
+
+.home-banner{
     display: grid;  
     background-image: url(images/header-bg.webp);
     background-position: center;
@@ -93,21 +94,25 @@ button.Sidebar{
     align-items: center;
     grid-auto-flow: column;
 }
-.zakarya-banner-content{
+
+.home-inner-container{
+    background-color: #9999993a;
+}
+.home-banner-content{
     display: grid;
     grid-auto-flow: row;
     font-family: 'Orbitron';
     width: 65%;
 }
-.zakarya-banner-title{
+.home-banner-title{
     font-size: 3rem;
     font-weight: bold;
 }
-.zakarya-banner-subtitle{
+.home-banner-subtitle{
     font-size: 2rem;
     font-weight: 400;
 }
-.zakarya-banner-btn{
+.home-banner-btn{
     background-color: #0F62FE;
     border:none;
     font-weight: 300;
@@ -117,24 +122,23 @@ button.Sidebar{
     padding-top: 10px;
     color: rgb(255, 255, 255);
 }
-.zakarya-title{
+.home-title{
     font-family: 'Orbitron';
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     color: #404040;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
 }
-.zakarya-CosmicExplore{
+.home-CosmicExplore{
     display: grid; 
     grid-template-columns: repeat(3 , 1fr);
     justify-items: center;
     margin-left: 14%;
     margin-right: 14%;
-    margin-top: 100px;
 }
-.zakarya-CosmicExplore-card{
+.home-CosmicExplore-card{
     background-color: #2B2525;
     box-shadow: 5px 5px 15px 5px #999999;
     padding: 20px;
@@ -143,46 +147,148 @@ button.Sidebar{
     color: #ffffff;
     font-family: 'Roboto';
 }
-.zakarya-CosmicExplore-card-img img{
+.home-CosmicExplore-card-img img{
     width: 350px;
     border-radius: 10px;
 }
-.zakarya-CosmicExplore-card-content{
+.home-CosmicExplore-card-content{
     padding: 5px;
     font-weight: bold;
 }
-.zakarya-card-title{
+.home-card-title{
     font-size: 1.8rem;
 }
-.zakarya-evenements{
+.home-evenements{
     justify-items: center;
-    margin-left: 16%;
-    margin-right: 16%;
+    width: 100%;
 }
-.zakarya-evenements-wide-cards{
+.home-evenements-container{
+    width: 1500px;
+}
+.home-evenements-wide-cards{
     background-color: #000000;
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
+    margin-bottom: 40px;
 }
 
-.zakarya-evenements-wide-cards-img ,.zakarya-evenements-wide-cards-img img{
+
+.home-evenements-wide-cards-img ,.home-evenements-wide-cards-img img{
     width: 500px;
     height: 400px;
 }
-.zakarya-evenements-wide-cards-content{
+.home-evenements-wide-cards-content{
+    display: grid;
     color: #ffffff;
+    align-items: center;
+}
+.home-evenements-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.home-evenements-small-cards{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+.home-evenements-small-cards-content{
+    background-color: white;
+    padding: 30px;
+}
+.home-FAQ{
+    display: grid;
+    justify-items: center;
+    grid-auto-flow: row;
+}
+.home-FAQ-cards{
+    background-color: white;
+    border: 0.2px solid #6d6d6d79;
+    width: 1300PX;
+    margin-bottom: 40px;
+}
+.home-FAQ-cards .Sidebar{
+    width: 150px;
+}
+.home-FAQ-cards-title{
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    align-items: center;
+    padding: 5px 0px 5px 25px;
+}
+.home-FAQ-cards-Description{
+    display: none;
+    transition: 2s ease-in-out;
+    padding: 20px;
+    background-color: #D9D9D9;
+}
+.home-FAQ-subtitle{
+    font-weight: bold;
+    font-size: large;
+    color: #4C4C4C;
+}
+#dropdown-Faq-1:checked ~ .ZFCD-1{
+    display: grid;
+    height: auto;
+    transition: max-height 2.5s ease, opacity 0.4s ease;
+}
+#dropdown-Faq-2:checked ~ .ZFCD-2{
+    display: grid;
+    height: auto;
+    transition: max-height 2.5s ease, opacity 0.4s ease;
+}
+#dropdown-Faq-3:checked ~ .ZFCD-3{
+    display: grid;
+    height: auto;
+    transition: max-height 2.5s ease, opacity 0.4s ease;
+}
+#dropdown-Faq-4:checked ~ .ZFCD-4{
+    display: grid;
+    height: auto;
+    transition: max-height 2.5s ease, opacity 0.4s ease;
+}
+#dropdown-Faq-5:checked ~ .ZFCD-5{
+    display: grid;
+    height: auto;
+    transition: max-height 2.5s ease, opacity 0.4s ease;
+}
+.home-newslater{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.home-newslater-subtitle{
+    font-size: large;
+    font-weight: 600;
+    line-height: 0;
+}
+.home-newslater-title{
+    font-weight: bold;
+    line-height: 0;
+    font-size: 35px;
+}
+.home-newslater-input-email{
+    background-color: #F2F4F8;
+    padding: 15px;
+    width: 350px;
+    border: none;
+    box-shadow: 2px 2px 15px 1px #5c5c5c2f;
+    border: 0.1px solid #29292946;
+}
+.home-newslater-input-btn{
+    background-color: #0F62FE;
+    padding: 15px 50px 15px 50px;
+    font-weight: 300;
+    color: white;
+    border: 0.1px solid #29292946;
 }
 
-
-
-
-
-
-
-
-
-
-
+.home-FAQ-cards-title label{
+    font-size: xx-large;
+}
 
 /* Oussama-inscription CSS */
 
@@ -195,17 +301,8 @@ button.Sidebar{
     background-size: cover;
 }
 .inscription-ban h1{
-    color: #fff5f5;
-    font-weight: bold;
-    font-size: 4rem;
-    font-family: 'Orbitron';
+    color: #000;
 }
-
-.inscription-ban p{
-    font-family: 'Roboto';
-    font-size: 2rem;
-}
-
 .inscription-cont{
     position: absolute;
     top: 50%;
@@ -229,6 +326,10 @@ button.Sidebar{
     gap: 15px;
     box-shadow: 10px 10px 20px  blue ;
     
+}
+.inscription-abonnement1 h2{
+    color: blue;
+
 }
 .inscription-fname{
     grid-column: 1/3;
@@ -306,7 +407,6 @@ button.Sidebar{
 
 }
 .inscription-Centres h3 , .inscription-Niveau h3{
-    font-family: 'Orbitron';
     color: blue;
     font-weight: bold;
 }
@@ -348,19 +448,15 @@ input{
 }
 .inscription-abonnement1 h2{
     color: blue;
-    font-family: 'Orbitron';
 
 }
 .inscription-abonnement2 h2{
     color: blue;
-    font-family: 'Orbitron';
 }
 .inscription-abonnement3 h2{
     color: blue;
-    font-family: 'Orbitron';
 }
 .inscription-discvoer-container2 button{
-    font-family: 'Roboto';
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
@@ -368,24 +464,15 @@ input{
     font-weight: bold;
     background-color: #0F62FE;
 }
-label{
-    font-family: 'Roboto';
-}
 .inscription-discvoer-container3{
     text-align: center;
     margin: 50px;
     padding: 40px;
     background-color: #000000;
     border-radius: 20rem;
-    
-}
-p{
-    font-family: 'Roboto';
-    font-size: 1rem;
 }
 .inscription-conditions{
     color: #ffffff;
-    font-family: 'Roboto';
 }
 .inscription-button{
     display: flex;
@@ -393,7 +480,6 @@ p{
     margin: 30px;
 }
 .inscription-button button{
-    font-family: 'Orbitron';
     width: 10rem;
     height: 3rem;
     border-radius: 10rem;
@@ -403,19 +489,308 @@ p{
     box-shadow: 10px 10px 20px  blue ;
 }
 
+/* categorie chaimaa css code */
+
+.chaima-discover-secction1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5rem;
+    gap: 4rem;
+    background-image: url(images/image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+
+.chaima-discover-text{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-self: center;
+    gap: 5rem;
+}
+.chaima-discover-text h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+.chaima-discover-section2{
+    display: grid;
+    grid-template-rows: repeat(3 ,1fr);
+    gap: 4rem;
+    padding: 3rem;
+    text-align: center;
+    color: black;
+    background-color: rgb(251, 251, 251);
+    height: 15rem;
+
+}
+.chaima-discover-section2 h2{
+    font-size: 3rem;
+    font-family: orditron", sans-serif;
+}
+.chaima-discover-section2 p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.chaima-discover-section3{
+    display: grid;
+    /* grid-template-rows: repeat(5,1fr);
+    gap: 4rem; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5rem;
+}
+.chaima-discover-section3 h3{
+    font-size: 3rem;
+    font-family: "Orbitron", sans-serif;
+}
+.chaima-discover-section3 p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.chaimaa-menu{
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    border-top: black 2px solid;
+}
+.chaimaa-menu ul{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    gap: 1.2rem;
+}
+.chaimaa-menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.chaimaa-menu ul a:hover{
+    text-decoration: underline;}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.texte{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    height: 20rem;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+.card a:hover{
+    text-decoration: underline;
+    
+}
+.chaima-discover-section4{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 5rem;
+    text-align: center;
+    color: rgb(253, 251, 251);
+    background-image:url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:7rem  ;
+    height: 20rem;
+    margin-bottom: 20rem;
+}
+.chaima-discover-section4 h1{
+    font-size: 3rem;
+}
+.chaima-discover-section4 p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.chaima-discover-section4-btn{
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    justify-self: center;}
 
 
 
+@media (max-width: 480px) {
+    
+
+  .chaima-discover-secction1 {
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 90vh;
+    padding: 5rem 2rem;
+  }
+
+  .chaima-discover-text {
+    gap: 3rem;
+    padding: 3rem;
+    align-self: center;
+  }
+
+  .chaima-discover-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+  }
+  .chaima-discover-text p{
+    font-size: 2rem;
+    margin: 0;
+}
+.chaima-discover-section2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    background-color: rgb(251, 251, 251);
+    height: 50vh;
+}
+.texto h2{
+    font-size: 2rem;
+    font-family: "Orbitron", sans-serif;
+}
+.texto p{
+    font-size: 2rem;
+}
+.chaima-discover-section3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 
 
 
+}
+.chaima-discover-section3 h3{
+    font-family: "Orbitron", sans-serif;
+}
+.chaima-discover-section3 h2{
+    font-size: 3rem;
+    font-family: "Orbitron", sans-serif;
+}
+.chaima-discover-section3 p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.chaima-discover-section3 img{
+    width: 80%; 
+    height:80%; 
+    border-radius: 10px;  
+}
+.chaima-discover-section3 a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.chaima-discover-section4{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(253, 251, 251);
+    background-image:url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top:7rem  ;
+    height: 30rem;
+    margin-bottom: 20rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.chaima-discover-section4 h1{
+    font-size: 3rem;}
+.chaima-discover-section4 p{
+    font-size: 2rem;
+}
+.chaima-discover-section4-btn{
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    justify-self: center;
+   
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.chaimaa-menu{
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    border-top: black 2px solid;
+}
+.chaimaa-menu ul{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    gap: 1.2rem;
+}
+.chaimaa-menu ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.chaimaa-menu ul a:hover{
+    text-decoration: underline;
 
 
+}
 
-
-
-
-
+}
 
 
 
@@ -494,14 +869,14 @@ p{
 
     /* Home css code */
 
-    .zakarya-banner{
+    .home-banner{
         grid-auto-flow: row;
         height: 780px;
     }
-    .zakarya-banner-content{
+    .home-banner-content{
         width: 80%;
     }
-    .zakarya-CosmicExplore{
+    .home-CosmicExplore{
         display: grid; 
         grid-template-columns: 1fr;
         row-gap: 30px;
@@ -512,13 +887,95 @@ p{
     body{
         scroll-behavior: smooth;
     }
+    .home-evenements-wide-cards{
+        background-color: #000000;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2 ,1fr);
+        
+    }
+    .home-evenements-wide-cards-img ,.home-evenements-wide-cards-img img{
+        width: 500px;
+        height: 400px;
+    }
+    .home-evenements-wide-cards-content{
+        padding: 25px;
+    }
+    
+
+    .home-evenements-small-cards{
+        display: grid;
+        grid-auto-flow: row;
+        gap: 40px;
+        padding-bottom: 50px;
+    }
+    .home-evenements-small-cards-content{
+        background-color: white;
+        padding: 35px;
+        height: 400px;
+        display: grid;
+        align-items: center;
+    }
+    .home-evenements{
+        justify-items: center;
+        width: 500px;
+        margin: 25px;
+        margin-bottom: 0;
+    }
+    .home-evenements-container{
+        width: 100%;
+    }
+    /* .home-evenements-wide-cards{
+        background-color: #000000;
+        display: grid;
+        grid-template-rows: repeat(2 ,1fr);
+        margin-bottom: 40px;
+    } */
+    .home-FAQ-cards{
+        background-color: white;
+        border: 0.2px solid #6d6d6d79;
+        width: 500px;
+        margin-bottom: 40px;
+    }
+    .home-FAQ-cards .Sidebar{
+        width: 20px;
+    }
+    .home-FAQ-cards-title{
+        display: grid;
+        grid-template-columns: 1fr 40px;
+        align-items: center;
+        padding: 5px 0px 5px 25px;
+    }
+    .home-newslater{
+        display: grid;
+        grid-auto-flow: row;
+        align-items: center;
+        justify-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .home-newslater-input{
+        display: grid;
+        grid-auto-flow: row;
+        justify-items: center;
+        width: 400px;
+    }
+    .home-newslater-input-email{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .home-newslater-input-btn{
+        width: 100%;
+    }
+
     /*oussama container*/
     .inscription-discvoer-container2 {
         height: 2000px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        
+        gap: 50px;
+
     }
 
 
