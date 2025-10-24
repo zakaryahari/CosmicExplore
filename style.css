@@ -1,0 +1,720 @@
+html,body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+/* this part is for the container */
+
+.container{
+    display: grid;
+    grid-template-areas: "header header"
+                            "content content"
+                            "footer footer";
+    grid-template-rows: 1fr;
+}
+
+/* Header css code */
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    background-image: url(images/header-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+
+.header-logo img{
+    width: 20rem;
+}
+.header-menu{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    gap: 2.5rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+.header-menu a{
+    color: white;
+    text-decoration: none;
+}
+.header-right-btn{
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid #ffff;
+}
+/*---------------------------- Banner ---------------------------- */
+.pageavis-banner {
+  background-image: url("images/slider.png"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+  display: flex;                
+  justify-content: center;       
+  align-items: center;
+  flex-direction: column; 
+ 
+  }  
+.pageavis-banner-content {
+  padding: 40px;
+  text-align: center;
+}
+
+.pageavis-banner-content h1 {
+  font-family: 'orbitron', Times, serif;
+  font-weight: 900;
+  font-size: 4em; 
+  margin-bottom: 100px;
+  color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  text-align: center; 
+  width:801px ;
+  height: 94px;
+  transform: translateY(40px);
+  animation: titleAppear 2s ease-out forwards;
+  transition: all 0.4s ease;
+}
+
+.pageavis-banner-content h1:hover {
+  color:black;
+  text-shadow:  0 0 15px rgba(255, 255, 255, 0.8);
+ 
+}
+.pageavis-search-box {
+  color: black;
+  text-align: center;
+  font-family:'Road Rage', Times, serif; ;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px ;
+  height: 41px;
+  width:587px;
+  font-weight: bold;
+}
+
+
+.content{
+  grid-area: content;
+}
+
+@media (max-width: 768px) {
+
+  .pageavis-banner {
+    background-attachment: scroll; 
+    height: 300px;
+    padding: 20px;
+  }
+
+  .pageavis-banner-content {
+    padding: 20px;
+  }
+
+  .pageavis-banner-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .pageavis-search-box {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageavis-banner {
+    height: 250px;
+  }
+
+  .pageavis-banner-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .pageavis-search-box{
+    width: 180px;
+  }
+}
+/*----------------------------CONTENT-section_diffNASA  ---------------------------- */
+
+.pageavis-content-1 {
+  position: relative;
+   margin-top: -27px; 
+   height: 380px;  
+    display:flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;  
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+  z-index: 0;          
+}
+.pageavis-content-diffNASA  {
+  max-width: 800px; 
+   position: relative;
+  z-index: 1;          
+  color: white;        
+  padding: 20px;
+  text-align: center;
+}
+
+.pageavis-content-diffNASA h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-family: 'orbitron', Courier, monospace;
+  height: 54px;
+  font-weight:bold;
+}
+
+.pageavis-content-diffNASA p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-family: 'roboto', Courier, monospace;
+  font-weight: bold;
+}
+
+.pageavis-content-diffNASA button {
+  background-color: black;  
+  color: white;              
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  width: 240px;   
+  height: 60px; 
+  font-family: 'Roboto', Times, serif;
+  margin-bottom: 20px; 
+}
+.pageavis-content-diffNASA button:hover {
+  background-color:white; 
+  color: black;
+  transform: scale(1.05);   
+}
+
+@media (max-width: 768px) {
+  .pageavis-content-1 {
+    height: auto;             
+    padding: 40px 20px;      
+  }
+  .pageavis-content-diffNASA {
+    max-width: 95%;            
+    padding: 20px;
+  }
+
+  .pageavis-content-diffNASA h1 {
+    font-size: 2rem;          
+    height: auto;              
+  }
+  .pageavis-content-diffNASA p {
+    font-size: 1rem;
+    line-height: 1.4;          
+  }
+
+  .pageavis-content-diffNASA button {
+    width: 80%;                
+    height: 50px;             
+    font-size: 0.9rem;         
+  }
+
+  .background-video {
+    object-fit: cover;       
+    height: 100%;             
+  }
+}
+/*----------------------------CONTENT-SECTION_ARTICLES ---------------------------- */
+
+.pageavis-content-2 {
+  margin: 0;
+  padding: 60px; 
+  background-color: black;
+}
+
+.pageavis-content-articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px;
+}
+
+
+.pageavis-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.pageavis-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.pageavis-grid-item:hover img {
+  transform: scale(1.1);
+}
+
+
+.pageavis-col-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 0.3s;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+
+.pageavis-col-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.pageavis-col-content button {
+  background-color:white;
+  color:black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.pageavis-col-content button:hover {
+  background-color:  black;
+  color:white;
+  transform: scale(1.05);
+}
+
+.pageavis-inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.text-part h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.text-part p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+#events-title {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+ color: #211076;
+  font-weight: bold;
+  font-family: 'Righteous', Courier, monospace;
+}
+
+.pageavis-events {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  margin-bottom: 20px;
+  padding:20px ;
+}
+
+.pageavis-event h5 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+   font-family: 'Righteous', Courier, monospace;
+   color: #211076;
+   text-align: left;
+}
+
+.pageavis-event p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #ddd;
+  font-family: 'Roboto', Courier, monospace;
+  text-align: left;
+}
+
+.more {
+  background-color: black;  
+  color: white;              
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  width: 240px;   
+  height: 60px; 
+  font-family: 'Roboto', Times, serif;
+  margin: 0 auto 20px; 
+  display: block;       
+  text-align: center;
+  transform: scale(1.05);
+  text-decoration-line: none;   
+
+}
+
+.more:hover {
+  background-color:white; 
+  color: black;
+  transform: scale(1.05);
+  text-decoration-line: none;   
+}
+
+@media (max-width: 768px) {
+
+  .pageavis-events {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  
+  .pageavis-event {
+    text-align: center;
+  }
+
+  .pageavis-event h5,
+  .pageavis-event p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+
+  .more {
+    width: 180px;
+    height: 50px;
+    font-size: 0.85rem;
+    margin: 10px auto;
+    display: block;
+  }
+
+  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-1,
+  .col-2-3,
+  .col-4 {
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+  }
+}
+
+
+.col-1 {
+  grid-row: 1 / span 2; 
+}
+.col-4 {
+  grid-row: 1 / span 2;
+}
+.col-2-3 {
+  grid-column: 2 / 4; 
+  grid-row: 2; 
+}
+
+
+@media (max-width: 768px) {
+  .pageavis-content-articles {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+
+  .col-1, .col-4, .col-2-3 {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .pageavis-inner-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .text-part, .image-part {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pageavis-col-content h2, .text-part h2, #events-title {
+    font-size: 1.5rem;
+  }
+
+  .text-part p, .event p {
+    font-size: 0.95rem;
+  }
+
+  .pageavis-col-content button {
+    width: auto;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}
+/*gridsection*/
+.custom-grid-section {
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+}
+
+.pageavis-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  gap: 10px;
+  
+}
+
+
+.col-1 {
+  grid-row: 1 / 5;
+}
+
+
+.col-2-4 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+
+
+.pageavis-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.pageavis-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.pageavis-grid-item:hover img {
+  transform: scale(1.1);
+}
+
+.pageavis-grid-content {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+}
+
+
+.more {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.more:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .col-1, .col-2-4 {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+* CONTAINER */
+.hero-bg{
+  width:1100px;
+  max-width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+
+.hero{
+  text-align:center;
+  margin-bottom:28px;
+}
+.hero-sub{
+  max-width:680px;
+  margin:0 auto 18px;
+  color:var(--muted);
+  font-size:14px;
+}
+.cta{
+  display:inline-block;
+  background:linear-gradient(90deg, rgba(10,10,12,0.9), rgba(30,30,34,0.85));
+  color:var(--text);
+  padding:12px 28px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing:0.6px;
+  box-shadow: 0 6px 20px rgba(2,2,2,0.6);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.cta:hover{ transform:translateY(-3px); box-shadow: 0 12px 30px rgba(2,2,2,0.7) }
+
+
+.grid-wrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:22px;
+  align-items:stretch;
+}
+
+
+.pageavis-card{
+  position:relative;
+  border-radius:20px;
+  overflow:hidden;
+  min-height:220px;
+  margin: 3Opx;
+  box-shadow:var(--shadow);
+  transition:transform .25s ease, box-shadow .25s ease;
+  display:flex;
+  flex-direction:column;
+  margin-bottom: 20px;
+}
+.pageavis-card:hover{ transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,0,0,0.6) }
+
+
+.pageavis-card-media{
+  background-size:cover;
+  background-position:center;
+  height:160px;
+  width:100%;
+  filter:brightness(.55);
+  transition:filter .25s ease, transform .35s ease;
+}
+.pageavis-card:hover .pageavis-card-media{ transform:scale(1.03) }
+
+
+.pageavis-card-content{
+  padding:14px 16px;
+ 
+  margin: 30px;
+  
+}
+.pageavis-card-content h3{
+  margin:0 0 8px;
+  font-size:16px;
+  font-weight:700;
+  letter-spacing:0.2px;
+  font-family:'orbitron';
+  color: #FFFFFF;
+}
+.pageavis-card-content p{
+  margin:0;
+  font-size:13px;
+  color:white;
+  line-height:1.35;
+  font-family:'roboto';
+}
+
+
+.pageavis-card-content.small{ min-height:260px }
+.pageavis-card-content.center-large{
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  min-height:560px;
+  display:flex;
+  flex-direction:column;
+}
+.pageavis-card.center-large .pageavis-card-media.center{ height:360px; }
+
+.pageavis-card.small .pageavis-card-media{ height:160px }
+
+
+@media (max-width:980px){
+  .grid-wrap{ grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+  .pageavis-card.center-large{ grid-column:1 / -1; grid-row:auto; min-height:420px }
+  .hero-sub{ max-width:520px }
+}
+
+@media (max-width:560px){
+  body{ padding:18px }
+  .grid-wrap{ grid-template-columns: 1fr; gap:14px }
+  .pageavis-card.center-large .pageavis-card-media.center{ height:240px }
+  .pageavis-card-media{ height:140px }
+  .hero-sub{ font-size:13px }
+  .cta{ padding:10px 18px }
+  .hero-bg{ width:100% }
+}
+
+
+
+
+
+
+.footer{
+    grid-area: footer;
+    background-color: blue;
+}
+
+
+@media (max-width: 768px) {
+  .header-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .content, .footer {
+    padding: 1rem;
+  }
+}
+
