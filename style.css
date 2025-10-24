@@ -1,64 +1,4 @@
-html,body{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-    
-}
 
-/* this part is for the container */
-
-.container{
-    display: grid;
-    grid-template-areas: "header header"
-                            "content content"
-                            "footer footer";
-    grid-template-rows: 1fr;
-}
-
-/* Header css code */
-
-.header{
-    grid-area: header;
-    background-color: aqua;
-}
-
-.header-container{
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
-    background-image: url(images/header-bg.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-items: center;
-    align-items: center;
-    color: white;
-}
-
-.header-logo img{
-    width: 20rem;
-}
-.header-menu{
-    display: grid;
-    grid-auto-flow: column;
-    list-style: none;
-    gap: 2.5rem;
-    font-size: x-large;
-    font-weight: 600;
-}
-.header-menu a{
-    color: white;
-    text-decoration: none;
-}
-.header-right-btn{
-    color: white;
-    font-size: x-large;
-    font-weight: 600;
-    padding: 10px 20px 10px 20px;
-    background-color: rgba(240, 248, 255, 0);
-    border: 1px solid #ffff;
-}
-/*---------------------------- Banner ---------------------------- */
 .pageavis-banner {
   background-image: url("images/slider.png"); 
   background-size: cover;
@@ -699,22 +639,4 @@ html,body{
 
 
 
-
-
-.footer{
-    grid-area: footer;
-    background-color: blue;
-}
-
-
-@media (max-width: 768px) {
-  .header-container {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .content, .footer {
-    padding: 1rem;
-  }
-}
 
