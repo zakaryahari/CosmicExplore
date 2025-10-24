@@ -84,7 +84,7 @@ button.Sidebar{
 
 /* Home css code */
 
-.zakarya-banner{
+.home-banner{
     display: grid;  
     background-image: url(images/header-bg.webp);
     background-position: center;
@@ -98,24 +98,24 @@ button.Sidebar{
     grid-auto-flow: column;
 }
 
-.zakarya-inner-container{
+.home-inner-container{
     background-color: #9999993a;
 }
-.zakarya-banner-content{
+.home-banner-content{
     display: grid;
     grid-auto-flow: row;
     font-family: 'Orbitron';
     width: 65%;
 }
-.zakarya-banner-title{
+.home-banner-title{
     font-size: 3rem;
     font-weight: bold;
 }
-.zakarya-banner-subtitle{
+.home-banner-subtitle{
     font-size: 2rem;
     font-weight: 400;
 }
-.zakarya-banner-btn{
+.home-banner-btn{
     background-color: #0F62FE;
     border:none;
     font-weight: 300;
@@ -125,7 +125,7 @@ button.Sidebar{
     padding-top: 10px;
     color: rgb(255, 255, 255);
 }
-.zakarya-title{
+.home-title{
     font-family: 'Orbitron';
     font-weight: bold;
     font-size: 1.5rem;
@@ -134,14 +134,14 @@ button.Sidebar{
     /* margin-top: 100px; */
     /* margin-bottom: 100px; */
 }
-.zakarya-CosmicExplore{
+.home-CosmicExplore{
     display: grid; 
     grid-template-columns: repeat(3 , 1fr);
     justify-items: center;
     margin-left: 14%;
     margin-right: 14%;
 }
-.zakarya-CosmicExplore-card{
+.home-CosmicExplore-card{
     background-color: #2B2525;
     box-shadow: 5px 5px 15px 5px #999999;
     padding: 20px;
@@ -150,25 +150,25 @@ button.Sidebar{
     color: #ffffff;
     font-family: 'Roboto';
 }
-.zakarya-CosmicExplore-card-img img{
+.home-CosmicExplore-card-img img{
     width: 350px;
     border-radius: 10px;
 }
-.zakarya-CosmicExplore-card-content{
+.home-CosmicExplore-card-content{
     padding: 5px;
     font-weight: bold;
 }
-.zakarya-card-title{
+.home-card-title{
     font-size: 1.8rem;
 }
-.zakarya-evenements{
+.home-evenements{
     justify-items: center;
     width: 100%;
 }
-.zakarya-evenements-container{
+.home-evenements-container{
     width: 1500px;
 }
-.zakarya-evenements-wide-cards{
+.home-evenements-wide-cards{
     background-color: #000000;
     display: grid;
     grid-template-columns: repeat(2 ,1fr);
@@ -176,56 +176,56 @@ button.Sidebar{
 }
 
 
-.zakarya-evenements-wide-cards-img ,.zakarya-evenements-wide-cards-img img{
+.home-evenements-wide-cards-img ,.home-evenements-wide-cards-img img{
     width: 500px;
     height: 400px;
 }
-.zakarya-evenements-wide-cards-content{
+.home-evenements-wide-cards-content{
     display: grid;
     color: #ffffff;
     align-items: center;
 }
-.zakarya-evenements-title{
+.home-evenements-title{
     font-size: 25px;
     font-weight: bold;
 }
-.zakarya-evenements-small-cards{
+.home-evenements-small-cards{
     display: grid;
     grid-auto-flow: column;
     gap: 40px;
     padding-bottom: 50px;
 }
-.zakarya-evenements-small-cards-content{
+.home-evenements-small-cards-content{
     background-color: white;
     padding: 30px;
 }
-.zakarya-FAQ{
+.home-FAQ{
     display: grid;
     justify-items: center;
     grid-auto-flow: row;
 }
-.zakarya-FAQ-cards{
+.home-FAQ-cards{
     background-color: white;
     border: 0.2px solid #6d6d6d79;
     width: 1300PX;
     margin-bottom: 40px;
 }
-.zakarya-FAQ-cards .Sidebar{
+.home-FAQ-cards .Sidebar{
     width: 150px;
 }
-.zakarya-FAQ-cards-title{
+.home-FAQ-cards-title{
     display: grid;
     grid-template-columns: 1fr 40px;
     align-items: center;
     padding: 5px 0px 5px 25px;
 }
-.zakarya-FAQ-cards-Description{
+.home-FAQ-cards-Description{
     display: none;
     transition: 2s ease-in-out;
     padding: 20px;
     background-color: #D9D9D9;
 }
-.zakarya-FAQ-subtitle{
+.home-FAQ-subtitle{
     font-weight: bold;
     font-size: large;
     color: #4C4C4C;
@@ -255,7 +255,7 @@ button.Sidebar{
     height: auto;
     transition: max-height 2.5s ease, opacity 0.4s ease;
 }
-.zakarya-newslater{
+.home-newslater{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
@@ -263,17 +263,17 @@ button.Sidebar{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.zakarya-newslater-subtitle{
+.home-newslater-subtitle{
     font-size: large;
     font-weight: 600;
     line-height: 0;
 }
-.zakarya-newslater-title{
+.home-newslater-title{
     font-weight: bold;
     line-height: 0;
     font-size: 35px;
 }
-.zakarya-newslater-input-email{
+.home-newslater-input-email{
     background-color: #F2F4F8;
     padding: 15px;
     width: 350px;
@@ -281,7 +281,7 @@ button.Sidebar{
     box-shadow: 2px 2px 15px 1px #5c5c5c2f;
     border: 0.1px solid #29292946;
 }
-.zakarya-newslater-input-btn{
+.home-newslater-input-btn{
     background-color: #0F62FE;
     padding: 15px 50px 15px 50px;
     font-weight: 300;
@@ -289,6 +289,9 @@ button.Sidebar{
     border: 0.1px solid #29292946;
 }
 
+.home-FAQ-cards-title label{
+    font-size: xx-large;
+}
 /* categorie chaimaa css code */
 
 
@@ -748,14 +751,14 @@ button.Sidebar{
 
     /* Home css code */
 
-    .zakarya-banner{
+    .home-banner{
         grid-auto-flow: row;
         height: 780px;
     }
-    .zakarya-banner-content{
+    .home-banner-content{
         width: 80%;
     }
-    .zakarya-CosmicExplore{
+    .home-CosmicExplore{
         display: grid; 
         grid-template-columns: 1fr;
         row-gap: 30px;
@@ -766,66 +769,66 @@ button.Sidebar{
     body{
         scroll-behavior: smooth;
     }
-    .zakarya-evenements-wide-cards{
+    .home-evenements-wide-cards{
         background-color: #000000;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2 ,1fr);
         
     }
-    .zakarya-evenements-wide-cards-img ,.zakarya-evenements-wide-cards-img img{
+    .home-evenements-wide-cards-img ,.home-evenements-wide-cards-img img{
         width: 500px;
         height: 400px;
     }
-    .zakarya-evenements-wide-cards-content{
+    .home-evenements-wide-cards-content{
         padding: 25px;
     }
     
 
-    .zakarya-evenements-small-cards{
+    .home-evenements-small-cards{
         display: grid;
         grid-auto-flow: row;
         gap: 40px;
         padding-bottom: 50px;
     }
-    .zakarya-evenements-small-cards-content{
+    .home-evenements-small-cards-content{
         background-color: white;
         padding: 35px;
         height: 400px;
         display: grid;
         align-items: center;
     }
-    .zakarya-evenements{
+    .home-evenements{
         justify-items: center;
         width: 500px;
         margin: 25px;
         margin-bottom: 0;
     }
-    .zakarya-evenements-container{
+    .home-evenements-container{
         width: 100%;
     }
-    /* .zakarya-evenements-wide-cards{
+    /* .home-evenements-wide-cards{
         background-color: #000000;
         display: grid;
         grid-template-rows: repeat(2 ,1fr);
         margin-bottom: 40px;
     } */
-    .zakarya-FAQ-cards{
+    .home-FAQ-cards{
         background-color: white;
         border: 0.2px solid #6d6d6d79;
         width: 500px;
         margin-bottom: 40px;
     }
-    .zakarya-FAQ-cards .Sidebar{
+    .home-FAQ-cards .Sidebar{
         width: 20px;
     }
-    .zakarya-FAQ-cards-title{
+    .home-FAQ-cards-title{
         display: grid;
         grid-template-columns: 1fr 40px;
         align-items: center;
         padding: 5px 0px 5px 25px;
     }
-    .zakarya-newslater{
+    .home-newslater{
         display: grid;
         grid-auto-flow: row;
         align-items: center;
@@ -833,17 +836,17 @@ button.Sidebar{
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .zakarya-newslater-input{
+    .home-newslater-input{
         display: grid;
         grid-auto-flow: row;
         justify-items: center;
         width: 400px;
     }
-    .zakarya-newslater-input-email{
+    .home-newslater-input-email{
         width: 100%;
         margin-bottom: 30px;
     }
-    .zakarya-newslater-input-btn{
+    .home-newslater-input-btn{
         width: 100%;
     }
 
