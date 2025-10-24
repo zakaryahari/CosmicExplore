@@ -331,7 +331,7 @@ button.Sidebar{
 .footer{
     margin: 0;
     grid-area: footer;
-    height: 482px;
+    /* height: 482px; */
 }
 .footer-container{
     background-color: aliceblue;
@@ -551,10 +551,10 @@ button.Sidebar{
     }
 
     .chaimaa-menu{
-        padding: 1rem;
+        padding: 1.5rem;
         display: grid;
         grid-template-rows: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
         justify-items: center;
         align-items: center;
         border-top: black 2px solid;
@@ -564,17 +564,18 @@ button.Sidebar{
         grid-auto-flow: column;
         list-style: none;
         gap: 1.2rem;
+        align-self: center;
     }
     .chaimaa-menu ul a{
         text-decoration: none;
         color: black;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        
     }
     .chaimaa-menu ul a:hover{
         text-decoration: underline;
-
-
-    }
+ }
 
 
 
