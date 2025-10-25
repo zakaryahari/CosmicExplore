@@ -674,7 +674,7 @@ button.Sidebar{
     background-position: center;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 90vh;
+    height: 120vh;
     padding: 5rem 2rem;
   }
 
@@ -811,7 +811,9 @@ button.Sidebar{
 .chaimaa-menu ul a{
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 .chaimaa-menu ul a:hover{
     text-decoration: underline;
