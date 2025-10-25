@@ -15,10 +15,6 @@ html,body{
     grid-template-rows: 1fr;
 }
 
-
-
-
-
 /* Header css code */
 
 .header{
@@ -83,6 +79,7 @@ button.Sidebar{
 }
 
 /* Home css code */
+
 
 .home-banner{
     display: grid;  
@@ -292,14 +289,237 @@ button.Sidebar{
 .home-FAQ-cards-title label{
     font-size: xx-large;
 }
+
+/* Oussama-inscription CSS */
+
+
+.inscription-ban{
+    position: relative;
+    width: 100%;
+    height: 481px;
+    background-image: url(./images/slider.png);
+    background-size: cover;
+}
+.inscription-ban h1{
+    color: white;
+
+}
+.inscription-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.inscription-Informations{
+    padding: 3rem 5vw;
+    margin: 3rem auto;
+    max-width: 900px;
+    border-radius: 20px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 10px 10px 20px  blue ;
+    
+}
+.inscription-abonnement1 h2{
+    color: blue;
+    font-family: 'Orbitron';
+
+
+}
+.inscription-fname{
+    grid-column: 1/3;
+    justify-content: center;
+    align-items: center;
+}
+.inscription-femail{
+    grid-column: 1/3;
+    justify-content: center;
+    align-items: center;
+}
+.inscription-fdate{
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+}
+.inscription-fLocalisation{
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+}
+#inscription-fdate{
+    color: rgba(240, 248, 255, 0.459);
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: solid 5px blue;
+    border-radius: 0.8rem;
+}
+#inscription-fLocalisation{
+    color: rgba(240, 248, 255, 0.459);
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    border: solid 5px blue;
+    border-radius: 0.8rem;
+}
+
+#inscription-fname , #inscription-femail {
+    color: aliceblue;
+    width: 98.5%;
+    height: 40px;
+    background-color: black;
+    border: solid 5px blue;
+    border-radius: 0.8rem;
+}
+.inscription-discvoer-container{
+    margin: 20px;
+    background-image: url(images/Paz\ repousando\ sobre\ a\ terra_✨🕊.jpeg);
+    height: 700px;
+    border-radius: 0.8rem;
+    padding: 20px;
+}
+.inscription-experience{
+    padding: 3rem 5vw;
+    margin: 3rem auto;
+    max-width: 900px;
+    border-radius: 20px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    box-shadow: 10px 10px 20px  blue ;
+}
+
+.inscription-Centres{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inscription-Niveau{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.inscription-Centres h3 , .inscription-Niveau h3{
+    color: blue;
+    font-weight: bold;
+    font-family: 'Orbitron';
+
+}
+.inscription-input{
+    accent-color: black;
+    font-family: 'Roboto';
+}
+.inscription-discvoer-container2{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 700px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    
+}
+.inscription-abonnement1{
+    justify-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 35rem;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.inscription-abonnement2{
+    justify-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 35rem;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.inscription-abonnement3{
+    justify-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 35rem;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.inscription-abonnement1 h2{
+    color: blue;
+    font-family: 'Orbitron';
+
+}
+.inscription-abonnement2 h2{
+    color: blue;
+    font-family: 'Orbitron';
+}
+.inscription-abonnement3 h2{
+    color: blue;
+    font-family: 'Orbitron';
+}
+.inscription-discvoer-container2 button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10rem;
+    color: white;
+    font-weight: bold;
+    background-color: #0F62FE;
+}
+.inscription-discvoer-container3{
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 20rem;
+}
+.inscription-conditions{
+    color: #ffffff;
+}
+.inscription-button{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.inscription-button button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10rem;
+    color: rgb(8, 23, 235);
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 10px 10px 20px  blue ;
+}
+
+.inscription-h1{
+    font-family: 'Orbitron';
+    font-size: 4rem;
+
+}
+.inscription-p ,.inscription-input{
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+.inscription-P{
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
 /* categorie chaimaa css code */
 
-
-.content{
-    grid-area: content;
-    margin: 0;
-    padding: 0;
-}
 .chaima-discover-secction1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -602,9 +822,6 @@ button.Sidebar{
 }
 
 
-/*end chaimaa css code */
-
-
 
 
 .footer{
@@ -778,6 +995,16 @@ button.Sidebar{
     }
     .home-newslater-input-btn{
         width: 100%;
+    }
+
+    /*oussama container*/
+    .inscription-discvoer-container2 {
+        height: 2000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
+
     }
 
 
