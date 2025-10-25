@@ -15,10 +15,6 @@ html,body{
     grid-template-rows: 1fr;
 }
 
-
-
-
-
 /* Header css code */
 
 .header{
@@ -83,6 +79,7 @@ button.Sidebar{
 }
 
 /* Home css code */
+
 
 .home-banner{
     display: grid;  
@@ -292,14 +289,237 @@ button.Sidebar{
 .home-FAQ-cards-title label{
     font-size: xx-large;
 }
+
+/* Oussama-inscription CSS */
+
+
+.inscription-ban{
+    position: relative;
+    width: 100%;
+    height: 481px;
+    background-image: url(./images/slider.png);
+    background-size: cover;
+}
+.inscription-ban h1{
+    color: white;
+
+}
+.inscription-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.inscription-Informations{
+    padding: 3rem 5vw;
+    margin: 3rem auto;
+    max-width: 900px;
+    border-radius: 20px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 10px 10px 20px  blue ;
+    
+}
+.inscription-abonnement1 h2{
+    color: blue;
+    font-family: 'Orbitron';
+
+
+}
+.inscription-fname{
+    grid-column: 1/3;
+    justify-content: center;
+    align-items: center;
+}
+.inscription-femail{
+    grid-column: 1/3;
+    justify-content: center;
+    align-items: center;
+}
+.inscription-fdate{
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+}
+.inscription-fLocalisation{
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+}
+#inscription-fdate{
+    color: rgba(240, 248, 255, 0.459);
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: solid 5px blue;
+    border-radius: 0.8rem;
+}
+#inscription-fLocalisation{
+    color: rgba(240, 248, 255, 0.459);
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    border: solid 5px blue;
+    border-radius: 0.8rem;
+}
+
+#inscription-fname , #inscription-femail {
+    color: aliceblue;
+    width: 98.5%;
+    height: 40px;
+    background-color: black;
+    border: solid 5px blue;
+    border-radius: 0.8rem;
+}
+.inscription-discvoer-container{
+    margin: 20px;
+    background-image: url(images/Paz\ repousando\ sobre\ a\ terra_✨🕊.jpeg);
+    height: 700px;
+    border-radius: 0.8rem;
+    padding: 20px;
+}
+.inscription-experience{
+    padding: 3rem 5vw;
+    margin: 3rem auto;
+    max-width: 900px;
+    border-radius: 20px;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    box-shadow: 10px 10px 20px  blue ;
+}
+
+.inscription-Centres{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inscription-Niveau{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.inscription-Centres h3 , .inscription-Niveau h3{
+    color: blue;
+    font-weight: bold;
+    font-family: 'Orbitron';
+
+}
+.inscription-input{
+    accent-color: black;
+    font-family: 'Roboto';
+}
+.inscription-discvoer-container2{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 700px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    
+}
+.inscription-abonnement1{
+    justify-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 35rem;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.inscription-abonnement2{
+    justify-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 35rem;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.inscription-abonnement3{
+    justify-items: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 35rem;
+    box-shadow: 10px 10px 20px  blue ;
+}
+.inscription-abonnement1 h2{
+    color: blue;
+    font-family: 'Orbitron';
+
+}
+.inscription-abonnement2 h2{
+    color: blue;
+    font-family: 'Orbitron';
+}
+.inscription-abonnement3 h2{
+    color: blue;
+    font-family: 'Orbitron';
+}
+.inscription-discvoer-container2 button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10rem;
+    color: white;
+    font-weight: bold;
+    background-color: #0F62FE;
+}
+.inscription-discvoer-container3{
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 20rem;
+}
+.inscription-conditions{
+    color: #ffffff;
+}
+.inscription-button{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.inscription-button button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10rem;
+    color: rgb(8, 23, 235);
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 10px 10px 20px  blue ;
+}
+
+.inscription-h1{
+    font-family: 'Orbitron';
+    font-size: 4rem;
+
+}
+.inscription-p ,.inscription-input{
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+.inscription-P{
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
 /* categorie chaimaa css code */
 
-
-.content{
-    grid-area: content;
-    margin: 0;
-    padding: 0;
-}
 .chaima-discover-secction1{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -605,6 +825,315 @@ button.Sidebar{
 /*end chaimaa css code */
 
 
+/* Missions mission css code */
+
+
+
+
+.mission-container {
+  background: #02040c;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.Missions-homepage {
+    
+    width: 100%;
+    height: 50rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url("images/pexels-mikhail-nilov-7709017\ \(1\).jpg") center / cover no-repeat;
+   
+}
+
+.Missions-homepage #text {
+width: 13rem;
+height: 20rem;
+padding-left: 15rem;
+padding-top: 10rem;
+
+}
+
+.Missions-homepage #text h1 {
+  color: #29A3DB;
+  font-size: 4rem;
+  text-align: left;
+  line-height: 4rem;
+  font-family:'Orbitron';
+  text-shadow: 2px 4px 6px rgb(96 80 8 / 50%);
+}
+
+.Missions-dev {
+  padding-top:2rem;
+}
+
+#t1 {
+    text-align: center;
+    color: #d2e6e5;
+    font-family:'Orbitron' , 'roboto';
+}
+
+
+
+/* timeline */
+
+
+                                             /* Timeline Container */
+
+.Missions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 100%;
+
+}
+
+/* Timeline  */
+.Missions-timeline {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-top: 3px solid #45a29e;
+  width: 100rem;
+}
+
+/* Timeline Items */
+
+.Missions-timeline-item {
+  position: relative; 
+  text-align: center;
+}
+
+
+
+.Missions-timeline-item::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #66fcf1;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+.Missions-content {
+  background: #1f2833;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+  min-width: 110px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.Missions-content a {
+   text-decoration: none;
+   color: white;
+}
+
+ /* carrts hover */
+.Missions-content:hover  {
+ transform: translateX(-10%) scale(1.3);
+  background: #2b2c2c;
+}
+
+
+
+/* hover timeline-items */
+.Missions-timeline-item:hover::before {
+  transform: translateX(-50%) scale(1.3);
+  background: #12910d;
+}
+
+.Missions-timeline-item:hover .content {
+  background: #0c4f7c;
+  transform: scale(1.05);
+}
+
+/* le couleur  des cercles */
+.historique::before {
+  background: #00bcd4;
+}
+
+.actuelle::before {
+  background: #ffd700;
+}
+
+.future::before {
+  background: #ff4d4d;
+}
+
+.Missions-dec-list {
+    display: block;
+    position: relative;
+    padding-left: 80% ;
+    list-style: none;
+}
+
+
+.Missions-dec-list .item1::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #66fcf1;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.Missions-dec-list .item2::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #b2da16;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+.Missions-dec-list .item3::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #900815;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+
+                                   /* missions-Missions */
+  
+.Missions-mission1 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/edu_srch_celebrate_the_50th_anniversary_apollo11.webp") center /cover no-repeat;
+}
+
+.Missions-descrption1 .text-image {
+  position: absolute;
+     width: 30rem;
+    top: 5rem;
+    left:5rem ;
+}
+
+.Missions-descrption1 .text-image p {
+  font-size: 1.2rem;
+}
+
+.Missions-descrption1 .text-image h2 {
+  font-size: 2rem;
+ font-family: 'Orbitron';
+}
+.Missions-descrption1 button  {
+  width: 10rem;
+  font-size: 1.2rem;
+  position: absolute;
+    top: 18rem;
+    left:5rem ;
+    padding: 0.5rem;
+    border: 0.1rem solid rgba(189, 181, 181, 0.726);
+    border-radius: 0.2rem;
+    font-family: 'Orbitron';
+    color: white;
+    background-color: rgba(31, 31, 37, 0.5)
+}
+
+.Missions-descrption1 .text-image h2 {
+
+
+  font-family: 'Orbitron';
+      
+}
+
+.Missions-descrption1 button:hover {  
+      background-color: white;
+      color: black;
+}
+
+
+.Missions-descrption2 ul .child {
+    list-style: none;
+    font-weight: bold;
+    color: #12910d;
+}
+
+.Missions-descrption2 ul li {
+  margin-bottom: 0.3rem; 
+}
+
+
+.Missions-mission2 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/voyage\ mission.jpg") center /cover no-repeat;
+
+} 
+
+
+
+.Missions-mission3 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/hubble-space-telescope-hst-6.webp") center /cover no-repeat;
+} 
+
+
+ .Missions-mission4 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/james\ web.png") center /cover no-repeat;
+}  
+
+.Missions-mission5 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/percerance.jpg") center /cover no-repeat;
+}  
+
+.Missions-mission6 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/parker-solar-probe-records-titre-1170x678.jpeg") center /cover no-repeat;
+}  
+
+.Missions-mission7 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/Artemis2.jpg") center /cover no-repeat;
+}  
+
+.Missions-mission8 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/hubble-space-telescope-hst-6.webp") center /cover no-repeat;
+}  
+
+
+.Missions-mission9 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/LUVOIR-A_milkyway_full.jpg") center /cover no-repeat;
+}  
 
 
 .footer{
@@ -780,8 +1309,712 @@ button.Sidebar{
         width: 100%;
     }
 
+    /*oussama container*/
+    .inscription-discvoer-container2 {
+        height: 2000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
+
+    }
+
+
+        /* Missions mission css code responsive */
+                    
+    .Missions-homepage {
+        height: 35rem;
+        background-position: center;
+    }
+    .Missions-homepage #text {
+        width: 90%;
+        height: auto;
+        padding-left: 2rem;
+        padding-top: 5rem;
+    }
+
+    .Missions-homepage #text h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    /* timeline responsive  */
+    .Missions-timeline {
+        flex-direction: column;
+        border-top: none;
+        border-left: 3px solid #2c716e;
+    }
+
+    .Missions-timeline-item::before {
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%);
+    }
+    .Missions-mission1 .Missions-descrption1,
+    .Missions-mission2 .Missions-descrption1,
+    .Missions-mission3 .Missions-descrption1,
+    .Missions-mission4 .Missions-descrption1,
+    .Missions-mission5 .Missions-descrption1,
+    .Missions-mission6 .Missions-descrption1,
+    .Missions-mission7 .Missions-descrption1,
+    .Missions-mission8 .Missions-descrption1,
+    .Missions-mission9 .Missions-descrption1 {
+        height: 25rem;
+        background-position: center top;
+    }
+
+     .Missions-descrption1 .text-image {
+        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .Missions-descrption1 .text-image h2 {
+        font-size: 2rem;
+        text-align: left;
+    }
 
     .footer-container{
     grid-auto-flow: row;
     }
+}
+
+.pageavis-banner {
+  background-image: url("images/slider.png"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+  display: flex;                
+  justify-content: center;       
+  align-items: center;
+  flex-direction: column; 
+ 
+  }  
+.pageavis-banner-content {
+  padding: 40px;
+  text-align: center;
+}
+
+.pageavis-banner-content h1 {
+  font-family: 'orbitron', Times, serif;
+  font-weight: 900;
+  font-size: 4em; 
+  margin-bottom: 100px;
+  color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+  text-align: center; 
+  width:801px ;
+  height: 94px;
+  transform: translateY(40px);
+  animation: titleAppear 2s ease-out forwards;
+  transition: all 0.4s ease;
+}
+
+.pageavis-banner-content h1:hover {
+  color:black;
+  text-shadow:  0 0 15px rgba(255, 255, 255, 0.8);
+ 
+}
+.pageavis-search-box {
+  color: black;
+  text-align: center;
+  font-family:'Road Rage', Times, serif; ;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px ;
+  height: 41px;
+  width:587px;
+  font-weight: bold;
+}
+
+
+.content{
+  grid-area: content;
+}
+
+@media (max-width: 768px) {
+
+  .pageavis-banner {
+    background-attachment: scroll; 
+    height: 300px;
+    padding: 20px;
+  }
+
+  .pageavis-banner-content {
+    padding: 20px;
+  }
+
+  .pageavis-banner-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .pageavis-search-box {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageavis-banner {
+    height: 250px;
+  }
+
+  .pageavis-banner-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .pageavis-search-box{
+    width: 180px;
+  }
+}
+/*----------------------------CONTENT-section_diffNASA  ---------------------------- */
+
+.pageavis-content-1 {
+  position: relative;
+   margin-top: -27px; 
+   height: 380px;  
+    display:flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;  
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+  z-index: 0;          
+}
+.pageavis-content-diffNASA  {
+  max-width: 800px; 
+   position: relative;
+  z-index: 1;          
+  color: white;        
+  padding: 20px;
+  text-align: center;
+}
+
+.pageavis-content-diffNASA h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-family: 'orbitron', Courier, monospace;
+  height: 54px;
+  font-weight:bold;
+}
+
+.pageavis-content-diffNASA p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-family: 'roboto', Courier, monospace;
+  font-weight: bold;
+}
+
+.pageavis-content-diffNASA button {
+  background-color: black;  
+  color: white;              
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  width: 240px;   
+  height: 60px; 
+  font-family: 'Roboto', Times, serif;
+  margin-bottom: 20px; 
+}
+.pageavis-content-diffNASA button:hover {
+  background-color:white; 
+  color: black;
+  transform: scale(1.05);   
+}
+
+@media (max-width: 768px) {
+  .pageavis-content-1 {
+    height: auto;             
+    padding: 40px 20px;      
+  }
+  .pageavis-content-diffNASA {
+    max-width: 95%;            
+    padding: 20px;
+  }
+
+  .pageavis-content-diffNASA h1 {
+    font-size: 2rem;          
+    height: auto;              
+  }
+  .pageavis-content-diffNASA p {
+    font-size: 1rem;
+    line-height: 1.4;          
+  }
+
+  .pageavis-content-diffNASA button {
+    width: 80%;                
+    height: 50px;             
+    font-size: 0.9rem;         
+  }
+
+  .background-video {
+    object-fit: cover;       
+    height: 100%;             
+  }
+}
+/*----------------------------CONTENT-SECTION_ARTICLES ---------------------------- */
+
+.pageavis-content-2 {
+  margin: 0;
+  padding: 60px; 
+  background-color: black;
+}
+
+.pageavis-content-articles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  gap: 20px;
+}
+
+
+.pageavis-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.pageavis-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.pageavis-grid-item:hover img {
+  transform: scale(1.1);
+}
+
+
+.pageavis-col-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 0.3s;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+
+.pageavis-col-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.pageavis-col-content button {
+  background-color:white;
+  color:black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.pageavis-col-content button:hover {
+  background-color:  black;
+  color:white;
+  transform: scale(1.05);
+}
+
+.pageavis-inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.text-part h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.text-part p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+#events-title {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+ color: #211076;
+  font-weight: bold;
+  font-family: 'Righteous', Courier, monospace;
+}
+
+.pageavis-events {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  margin-bottom: 20px;
+  padding:20px ;
+}
+
+.pageavis-event h5 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+   font-family: 'Righteous', Courier, monospace;
+   color: #211076;
+   text-align: left;
+}
+
+.pageavis-event p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #ddd;
+  font-family: 'Roboto', Courier, monospace;
+  text-align: left;
+}
+
+.more {
+  background-color: black;  
+  color: white;              
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+  width: 240px;   
+  height: 60px; 
+  font-family: 'Roboto', Times, serif;
+  margin: 0 auto 20px; 
+  display: block;       
+  text-align: center;
+  transform: scale(1.05);
+  text-decoration-line: none;   
+
+}
+
+.more:hover {
+  background-color:white; 
+  color: black;
+  transform: scale(1.05);
+  text-decoration-line: none;   
+}
+
+@media (max-width: 768px) {
+
+  .pageavis-events {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  
+  .pageavis-event {
+    text-align: center;
+  }
+
+  .pageavis-event h5,
+  .pageavis-event p {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+
+  .more {
+    width: 180px;
+    height: 50px;
+    font-size: 0.85rem;
+    margin: 10px auto;
+    display: block;
+  }
+
+  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-1,
+  .col-2-3,
+  .col-4 {
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+  }
+}
+
+
+.col-1 {
+  grid-row: 1 / span 2; 
+}
+.col-4 {
+  grid-row: 1 / span 2;
+}
+.col-2-3 {
+  grid-column: 2 / 4; 
+  grid-row: 2; 
+}
+
+
+@media (max-width: 768px) {
+  .pageavis-content-articles {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+
+  .col-1, .col-4, .col-2-3 {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .pageavis-inner-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .text-part, .image-part {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pageavis-col-content h2, .text-part h2, #events-title {
+    font-size: 1.5rem;
+  }
+
+  .text-part p, .event p {
+    font-size: 0.95rem;
+  }
+
+  .pageavis-col-content button {
+    width: auto;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}
+/*gridsection*/
+.custom-grid-section {
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+}
+
+.pageavis-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  gap: 10px;
+  
+}
+
+
+.col-1 {
+  grid-row: 1 / 5;
+}
+
+
+.col-2-4 {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+
+
+.pageavis-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.pageavis-grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.pageavis-grid-item:hover img {
+  transform: scale(1.1);
+}
+
+.pageavis-grid-content {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 10px;
+}
+
+
+.more {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.more:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .col-1, .col-2-4 {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+}
+* CONTAINER */
+.hero-bg{
+  width:1100px;
+  max-width:100%;
+  margin:0 auto;
+  position:relative;
+}
+
+
+.hero{
+  text-align:center;
+  margin-bottom:28px;
+}
+.hero-sub{
+  max-width:680px;
+  margin:0 auto 18px;
+  color:var(--muted);
+  font-size:14px;
+}
+.cta{
+  display:inline-block;
+  background:linear-gradient(90deg, rgba(10,10,12,0.9), rgba(30,30,34,0.85));
+  color:var(--text);
+  padding:12px 28px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:700;
+  letter-spacing:0.6px;
+  box-shadow: 0 6px 20px rgba(2,2,2,0.6);
+  transition:transform .18s ease, box-shadow .18s ease;
+}
+.cta:hover{ transform:translateY(-3px); box-shadow: 0 12px 30px rgba(2,2,2,0.7) }
+
+
+.grid-wrap{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:22px;
+  align-items:stretch;
+}
+
+
+.pageavis-card{
+  position:relative;
+  border-radius:20px;
+  overflow:hidden;
+  min-height:220px;
+  margin: 3Opx;
+  box-shadow:var(--shadow);
+  transition:transform .25s ease, box-shadow .25s ease;
+  display:flex;
+  flex-direction:column;
+  margin-bottom: 20px;
+}
+.pageavis-card:hover{ transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,0,0,0.6) }
+
+
+.pageavis-card-media{
+  background-size:cover;
+  background-position:center;
+  height:160px;
+  width:100%;
+  filter:brightness(.55);
+  transition:filter .25s ease, transform .35s ease;
+}
+.pageavis-card:hover .pageavis-card-media{ transform:scale(1.03) }
+
+
+.pageavis-card-content{
+  padding:14px 16px;
+ 
+  margin: 30px;
+  
+}
+.pageavis-card-content h3{
+  margin:0 0 8px;
+  font-size:16px;
+  font-weight:700;
+  letter-spacing:0.2px;
+  font-family:'orbitron';
+  color: #FFFFFF;
+}
+.pageavis-card-content p{
+  margin:0;
+  font-size:13px;
+  color:white;
+  line-height:1.35;
+  font-family:'roboto';
+}
+
+
+.pageavis-card-content.small{ min-height:260px }
+.pageavis-card-content.center-large{
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+  min-height:560px;
+  display:flex;
+  flex-direction:column;
+}
+.pageavis-card.center-large .pageavis-card-media.center{ height:360px; }
+
+.pageavis-card.small .pageavis-card-media{ height:160px }
+
+
+@media (max-width:980px){
+  .grid-wrap{ grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+  .pageavis-card.center-large{ grid-column:1 / -1; grid-row:auto; min-height:420px }
+  .hero-sub{ max-width:520px }
+}
+
+@media (max-width:560px){
+  body{ padding:18px }
+  .grid-wrap{ grid-template-columns: 1fr; gap:14px }
+  .pageavis-card.center-large .pageavis-card-media.center{ height:240px }
+  .pageavis-card-media{ height:140px }
+  .hero-sub{ font-size:13px }
+  .cta{ padding:10px 18px }
+  .hero-bg{ width:100% }
 }
