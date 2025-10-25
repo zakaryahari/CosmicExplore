@@ -853,10 +853,10 @@ button.Sidebar{
 }
 
 .Missions-homepage #text {
-width: 13rem;
-height: 20rem;
-padding-left: 15rem;
-padding-top: 10rem;
+  width: 13rem;
+  height: 20rem;
+  padding-left: 15rem;
+  padding-top: 10rem;
 
 }
 
@@ -1381,6 +1381,9 @@ padding-top: 10rem;
 
     .footer-container{
     grid-auto-flow: row;
+    }
+    .footer-cards img{
+      width: 200px;
     }
 }
 
@@ -2006,7 +2009,7 @@ padding-top: 10rem;
 
 
 @media (max-width:980px){
-  .grid-wrap{ grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+  .grid-wrap{ grid-template-columns: 1fr 1fr; grid-auto-rows: auto; margin: 80px;}
   .pageavis-card.center-large{ grid-column:1 / -1; grid-row:auto; min-height:420px }
   .hero-sub{ max-width:520px }
 }
@@ -2019,4 +2022,13 @@ padding-top: 10rem;
   .hero-sub{ font-size:13px }
   .cta{ padding:10px 18px }
   .hero-bg{ width:100% }
+  .pageavis-card{
+    height: 500px;
+  }
+  .pageavis-card-content h3{
+    font-size: xx-large;
+  }
+  .pageavis-card-content p{
+    font-size: xx-large;
+  }
 }
