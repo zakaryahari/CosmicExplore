@@ -822,6 +822,318 @@ button.Sidebar{
 }
 
 
+/*end chaimaa css code */
+
+
+/* Missions mission css code */
+
+
+
+
+.mission-container {
+  background: #02040c;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.Missions-homepage {
+    
+    width: 100%;
+    height: 50rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: url("images/pexels-mikhail-nilov-7709017\ \(1\).jpg") center / cover no-repeat;
+   
+}
+
+.Missions-homepage #text {
+width: 13rem;
+height: 20rem;
+padding-left: 15rem;
+padding-top: 10rem;
+
+}
+
+.Missions-homepage #text h1 {
+  color: #29A3DB;
+  font-size: 4rem;
+  text-align: left;
+  line-height: 4rem;
+  font-family:'Orbitron';
+  text-shadow: 2px 4px 6px rgb(96 80 8 / 50%);
+}
+
+.Missions-dev {
+  padding-top:2rem;
+}
+
+#t1 {
+    text-align: center;
+    color: #d2e6e5;
+    font-family:'Orbitron' , 'roboto';
+}
+
+
+
+/* timeline */
+
+
+                                             /* Timeline Container */
+
+.Missions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 100%;
+
+}
+
+/* Timeline  */
+.Missions-timeline {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-top: 3px solid #45a29e;
+  width: 100rem;
+}
+
+/* Timeline Items */
+
+.Missions-timeline-item {
+  position: relative; 
+  text-align: center;
+}
+
+
+
+.Missions-timeline-item::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #66fcf1;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+.Missions-content {
+  background: #1f2833;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-top: 1rem;
+  min-width: 110px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.Missions-content a {
+   text-decoration: none;
+   color: white;
+}
+
+ /* carrts hover */
+.Missions-content:hover  {
+ transform: translateX(-10%) scale(1.3);
+  background: #2b2c2c;
+}
+
+
+
+/* hover timeline-items */
+.Missions-timeline-item:hover::before {
+  transform: translateX(-50%) scale(1.3);
+  background: #12910d;
+}
+
+.Missions-timeline-item:hover .content {
+  background: #0c4f7c;
+  transform: scale(1.05);
+}
+
+/* le couleur  des cercles */
+.historique::before {
+  background: #00bcd4;
+}
+
+.actuelle::before {
+  background: #ffd700;
+}
+
+.future::before {
+  background: #ff4d4d;
+}
+
+.Missions-dec-list {
+    display: block;
+    position: relative;
+    padding-left: 80% ;
+    list-style: none;
+}
+
+
+.Missions-dec-list .item1::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #66fcf1;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.Missions-dec-list .item2::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #b2da16;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+.Missions-dec-list .item3::before {
+  content: "";
+  position: absolute;
+  left: 75%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #900815;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+
+                                   /* missions-Missions */
+  
+.Missions-mission1 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/edu_srch_celebrate_the_50th_anniversary_apollo11.webp") center /cover no-repeat;
+}
+
+.Missions-descrption1 .text-image {
+  position: absolute;
+     width: 30rem;
+    top: 5rem;
+    left:5rem ;
+}
+
+.Missions-descrption1 .text-image p {
+  font-size: 1.2rem;
+}
+
+.Missions-descrption1 .text-image h2 {
+  font-size: 2rem;
+ font-family: 'Orbitron';
+}
+.Missions-descrption1 button  {
+  width: 10rem;
+  font-size: 1.2rem;
+  position: absolute;
+    top: 18rem;
+    left:5rem ;
+    padding: 0.5rem;
+    border: 0.1rem solid rgba(189, 181, 181, 0.726);
+    border-radius: 0.2rem;
+    font-family: 'Orbitron';
+    color: white;
+    background-color: rgba(31, 31, 37, 0.5)
+}
+
+.Missions-descrption1 .text-image h2 {
+
+
+  font-family: 'Orbitron';
+      
+}
+
+.Missions-descrption1 button:hover {  
+      background-color: white;
+      color: black;
+}
+
+
+.Missions-descrption2 ul .child {
+    list-style: none;
+    font-weight: bold;
+    color: #12910d;
+}
+
+.Missions-descrption2 ul li {
+  margin-bottom: 0.3rem; 
+}
+
+
+.Missions-mission2 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/voyage\ mission.jpg") center /cover no-repeat;
+
+} 
+
+
+
+.Missions-mission3 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/hubble-space-telescope-hst-6.webp") center /cover no-repeat;
+} 
+
+
+ .Missions-mission4 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/james\ web.png") center /cover no-repeat;
+}  
+
+.Missions-mission5 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/percerance.jpg") center /cover no-repeat;
+}  
+
+.Missions-mission6 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/parker-solar-probe-records-titre-1170x678.jpeg") center /cover no-repeat;
+}  
+
+.Missions-mission7 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/Artemis2.jpg") center /cover no-repeat;
+}  
+
+.Missions-mission8 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/hubble-space-telescope-hst-6.webp") center /cover no-repeat;
+}  
+
+
+.Missions-mission9 .Missions-descrption1 {
+  position: relative;
+    height: 50rem;
+    background: url("images/LUVOIR-A_milkyway_full.jpg") center /cover no-repeat;
+}  
 
 
 .footer{
@@ -1007,6 +1319,63 @@ button.Sidebar{
 
     }
 
+
+        /* Missions mission css code responsive */
+                    
+    .Missions-homepage {
+        height: 35rem;
+        background-position: center;
+    }
+    .Missions-homepage #text {
+        width: 90%;
+        height: auto;
+        padding-left: 2rem;
+        padding-top: 5rem;
+    }
+
+    .Missions-homepage #text h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    /* timeline responsive  */
+    .Missions-timeline {
+        flex-direction: column;
+        border-top: none;
+        border-left: 3px solid #2c716e;
+    }
+
+    .Missions-timeline-item::before {
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%);
+    }
+    .Missions-mission1 .Missions-descrption1,
+    .Missions-mission2 .Missions-descrption1,
+    .Missions-mission3 .Missions-descrption1,
+    .Missions-mission4 .Missions-descrption1,
+    .Missions-mission5 .Missions-descrption1,
+    .Missions-mission6 .Missions-descrption1,
+    .Missions-mission7 .Missions-descrption1,
+    .Missions-mission8 .Missions-descrption1,
+    .Missions-mission9 .Missions-descrption1 {
+        height: 25rem;
+        background-position: center top;
+    }
+
+     .Missions-descrption1 .text-image {
+        top: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .Missions-descrption1 .text-image h2 {
+        font-size: 2rem;
+        text-align: left;
+    }
 
     .footer-container{
     grid-auto-flow: row;
